@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="Productinfo.css">
+    <link rel="stylesheet" href="Productsstyle.css">
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Ecommerce</title>
+   </head>
+
+   <body>
+    <div class="header">
+        <div class="M17">
+            <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"> GlistenNGlow </h1><br/>
+        </div>
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img href="" alt=""></img>
+        </div>
+
+        <nav class="list">
+            <ul>
+                <li><img src="Images/shopping-cart (1).png" href="index.html" style="cursor: pointer;"></li>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="Products.html"> Products </a></li>
+                <li><a href="Contact.html"> Contact </a></li>
+                <li><a href="Account.html"> Account </a></li>
+            </ul>
+        </nav>
+     </div>
+    </div>
+    
+<div class="small single-product">
+    <div class="row">
+        <div class="column2">
+            <img src="Images/gp4.jpg" width=100% id="Productimg">
+            <div class="smallimgrow">
+                <div class="smallimgcol">
+                    <img src="Images/gp4.jpg" width="100%" class="smallimg">
+                </div>
+                <div class="smallimgcol">
+                    <img src="Images/gp5.jpg" width="100%" class="smallimg">
+                </div>
+                <div class="smallimgcol">
+                    <img src="Images/gp6.jpg" width="100%" class="smallimg">
+                </div>
+                <div class="smallimgcol"></div>
+            </div>
+        </div>
+        <div class="column2">
+            <p> Home / DNMX Fit Jeans </p>
+            <h2> DNMX </h2>
+            <h2> High-Rise Skinny Jeans </h2>
+            <h4> MRP₹639 (23% OFF) </h4>
+            <h4> Price inclusive of all taxes </h4>
+            <select>
+                <option> Select Size </option>
+                <option> Small </option>
+                <option> Medium </option>
+                <option> Large </option>
+                <option> XL </option>
+                <option> XXL </option>
+            </select>
+            <input type="number" value="1"><br/>
+            <a href="Account.html" class="btn" style="text-decoration: none;"> Add To Cart </a>
+            <h4> Free Delivery within India in 4-7 days </h4>
+            <h3> Product Details </h3>
+            <ul>
+                <li> 80% knit, 20% polyester </li>    
+                <li> Machine wash cold </li>    
+                <li> 78% Cotton, 21% Polyester & 1% Elastane </li> 
+                <li> Commodity: Women's Pants </li> 
+                <li>
+                    <div class="rating">  
+                        <p> Ratings: &#x2605; &#x2605; &#x2605; &#x2605; &#x2606;</p>
+                    </div>
+                </li>  
+            </ul>
+            <h4> Returns </h4>
+            <p> Easy 15 days return and exchange. Return Policies may vary based on products and promotions. </p>
+        </div>
+    </div>
+</div>
+<div class="categories">
+    <div class="small">
+        <h2 class="title"> Related Products </h2>
+    <div class="row">
+        <div class="column4">
+            <a href="Djjeans.html"> <img src="Images/gp1.jpg" > </a>
+            <h4> Dj & C Jeans </h4>
+            <div class="rating">  
+                <p>&#x2605; &#x2605; &#x2605; &#x2605; &#x2606;</p>
+            </div>
+            <p><b> MRP </b> &#8377;1249 </p>
+        </div>
+
+        <div class="column4">
+            <a href="Dnmxjeans.html"> <img src="Images/gp4.jpg" > </a>
+            <h4> DNMX Fit Jeans </h4>
+            <div class="rating">  
+                <p>&#x2605; &#x2605; &#x2605; &#x2605; &#x2606;</p>
+            </div>
+            <p><b> MRP </b> &#8377;639 </p>
+        </div>
+
+    </div>
+</div>
+</div> 
+
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <div class="col4">
+                    <h4> Download Our App </h4>
+                    <h6> Download App for Android and </h6>
+                    <h6> Ios mobile phone </h6>
+                </div>
+                
+                <div class="col4">
+                    <h6> Our Purpose is To Sustainably Make </h6>
+                    <h6> the Pleasure and Benefits to the Many! </h6>
+                </div>
+
+                <div class="col4">
+                    <h4> Useful Links </h4>
+                    <ul>
+                        <li> Coupons </li>
+                        <li> Blog Post </li>
+                        <li> Return Policy </li>
+                        <li> Join Affliate </li>
+                    </ul>
+                </div>
+
+                <div class="col4">
+                    <h4> Follow Us </h4>
+                    <ul>
+                        <li> Facebook </li>
+                        <li> Twitter </li>
+                        <li> Instagram </li>
+                        <li> YouTube </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var Product = document.getElementById("Productimg");
+        var smallimg = document.getElementsByClassName("smallimg");
+
+        smallimg[0].onclick = function()
+        {
+            Productimg.src = smallimg[0].src
+        }
+        smallimg[1].onclick = function()
+        {
+            Productimg.src = smallimg[1].src
+        }
+        smallimg[2].onclick = function()
+        {
+            Productimg.src = smallimg[2].src
+        }
+
+    </script>
+   </body>
+</html>
